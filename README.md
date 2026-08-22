@@ -176,4 +176,4 @@ a documented forced-sale outcome, and flags 1 of 12 live 13F filers carrying
 the same crowded-trade signature today.
 
 ## Author
-Shaswat Sharma
+Shaswat Sharma · [github.com/theshaswat](https://github.com/theshaswat)
