@@ -32,7 +32,7 @@ TEXT = "#e6edf3"
 MUTED = "#8b98a5"
 DIM = "#5c6b7a"
 ACCENT = "#b39ddb"
-HEDGE = "#3fb984"
+HEDGE = "#4aa8ff"
 LOSS = "#f2545b"
 GRID = "#1e2530"
 
@@ -115,9 +115,9 @@ for i, (big, lab, sub, col) in enumerate(kpis):
 
 # --------------------------------------------- act 1: the rise + the hedge
 cx, cy, cw, ch = card(L, 0.533, W, 0.232)
-fig.text(cx + 0.020, cy + ch - 0.020, "01   The book grows 79x, hedged until the last quarter",
+fig.text(cx + 0.020, cy + ch - 0.020, "01   The book grows 79x. Put cover comes and goes, then stops",
          fontsize=14, fontweight="700", color=TEXT, va="top")
-ax1 = fig.add_axes([cx + 0.055, cy + 0.040, cw - 0.085, ch - 0.098])
+ax1 = fig.add_axes([cx + 0.055, cy + 0.082, cw - 0.085, ch - 0.140])
 style_axes(ax1)
 x = range(len(conc))
 gross_bn = conc.gross_usd / 1e9
@@ -138,6 +138,29 @@ ax1.annotate("$8.46bn of puts", xy=(5, hedged_bn.iloc[5]), xytext=(3.6, 16.4),
 ax1.annotate("0.03%", xy=(6, 0.4), xytext=(6, 7.6),
              fontsize=11.5, color=LOSS, fontweight="700", ha="center",
              arrowprops=dict(arrowstyle="->", color=LOSS, lw=1.6))
+ax1.set_xticklabels([])
+
+# Put cover as a share of gross. At 79x growth the early bars are visually
+# nothing, so the share is unreadable off the bars above — this strip carries
+# it at every quarter and shows the cover was intermittent, not continuous.
+axs = fig.add_axes([cx + 0.055, cy + 0.038, cw - 0.085, 0.030])
+axs.set_facecolor("none"); axs.set_zorder(3)
+axs.bar(x, conc.put_pct * 100, color=HEDGE, width=0.6, zorder=3)
+axs.set_ylim(0, 100); axs.set_xlim(-0.6, 6.6)
+axs.set_yticks([])
+axs.set_xticks(list(x)); axs.set_xticklabels(conc.label, fontsize=10)
+axs.tick_params(length=0, labelsize=10)
+for sp in ["top", "right", "left"]:
+    axs.spines[sp].set_visible(False)
+axs.spines["bottom"].set_color(EDGE)
+for i, v in enumerate(conc.put_pct * 100):
+    inside = v >= 26          # tall enough to sit on the fill legibly
+    axs.text(i, v / 2 if inside else v + 16,
+             f"{v:.0f}%" if v >= 1 else "0%", ha="center", fontsize=9.2,
+             color=BG if inside else (HEDGE if v >= 1 else DIM),
+             fontweight="700", va="center", zorder=4)
+axs.text(-0.58, 55, "put cover,\n% of gross", fontsize=8.6, color=DIM,
+         ha="right", va="center", linespacing=1.4)
 
 # ------------------------------------------- act 2: concentration reverses
 cx, cy, cw, ch = card(L, 0.302, W, 0.212)
@@ -173,7 +196,7 @@ name = {"SNDK": "SanDisk", "MU": "Micron", "BE": "Bloom Energy",
 for t in norm.columns:
     is_corz = t == "CORZ"
     ax3.plot(norm.index, norm[t], lw=2.6 if is_corz else 1.4,
-             color=LOSS if is_corz else "#3d4757",
+             color=LOSS if is_corz else "#5c6b7a",
              zorder=4 if is_corz else 2)
 MIN_GAP = 11.0
 placed = []
