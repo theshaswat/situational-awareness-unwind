@@ -181,6 +181,20 @@ Holdings) is listed and excluded, not estimated.
     fund. All figures here are frozen to filings and prices available as of
     the stated pull date.
 
+## Verification
+`scripts/verify.py` re-runs the deterministic notebooks (02, 03) from the
+committed raw SEC filings and asserts the published outputs reproduce
+byte-identically, that the headline figures quoted in this README still match
+the committed tables, and that the two related filer CIKs have not been summed
+into a double-counted book. It runs in CI on every push.
+
+Notebooks 01, 04, 06, 07 and 08 call SEC EDGAR and yfinance live, so their
+results depend on when they run; those are dated rather than asserted.
+
+```
+python3 scripts/verify.py
+```
+
 ## Licence
 Code under `src/` and `scripts/` is MIT. The written analysis, model, and
 exhibits are not. See [NOTICE.md](NOTICE.md) for the scope split, and for
