@@ -1,0 +1,9 @@
+driver,value
+Actual long-book return (Jun-end to Jul-end),-0.3392834094954469
+Beta (SOX),-0.18863887382612288
+Concentration effect vs equal-weight,-0.05603449130644922
+Residual (stock-specific),-0.09461004436287479
+"Hedge-absence cost, LOW scenario (20% OTM)",-0.0023065792775633885
+"Hedge-absence cost, HIGH scenario (ATM)",-0.008649672290862706
+"Slippage (CORZ only, lower bound)",-0.0015963869752478822
+"Reported fund-level equity loss (unaudited, investor letter)",-0.67
