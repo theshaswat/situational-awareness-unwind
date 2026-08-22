@@ -235,17 +235,36 @@ if len(screen_df):
 # project's explicit scope boundary (see reports/RISK_MEMO.pdf).
 
 # %%
+AXIS_LABEL = {
+    "flag_level": "concentration level (HHI > 0.10)",
+    "flag_trend": "concentration trend (> +0.03 in one quarter)",
+    "flag_crowding": "multi-name crowding (holds >= 2 of 4 tracked names)",
+}
+
 if len(screen_df) and n_flagged > 0:
-    flagged_names = screen_df[screen_df.flagged].filer.tolist()
+    # Name the SPECIFIC axes each filer breached. A vague "at least 2 of 3,
+    # X or Y" phrasing invites the reader to assume the crowding axis was
+    # among them when it may not have been.
+    parts = []
+    for _, r in screen_df[screen_df.flagged].iterrows():
+        breached = [AXIS_LABEL[a] for a in AXIS_LABEL if r[a]]
+        missed = [AXIS_LABEL[a] for a in AXIS_LABEL if not r[a]]
+        parts.append(
+            f"{r.filer.strip()} — breaches {len(breached)} of 3 axes: "
+            f"{'; '.join(breached)}. It does NOT breach: {'; '.join(missed)}"
+            f" (HHI {r.hhi_prior:.3f} -> {r.hhi_current:.3f}; holds "
+            f"{r.flagged_names_held} of the 4 tracked names)"
+        )
     recommendation = (
-        f"{n_flagged} current 13F filer(s) — {', '.join(flagged_names)} — "
-        f"share at least 2 of the 3 axes that preceded the Situational "
-        f"Awareness unwind: elevated or fast-rising concentration in "
-        f"illiquid AI-infrastructure names, or multi-name overlap in the "
-        f"specific low-ADV names flagged by notebook 04. This is risk "
-        f"geometry, not a prediction of failure — a portfolio matching this "
-        f"signature merits closer position-level liquidity and leverage "
-        f"review, not an assumption of imminent distress."
+        f"{n_flagged} of {len(screen_df)} screened 13F filers breach the "
+        f"2-of-3-axis threshold established in notebook 07.\n\n"
+        + "\n\n".join(parts)
+        + "\n\nThis is risk geometry, not a prediction of failure. Breaching "
+          "2 of 3 axes does NOT mean a filer matches the Situational "
+          "Awareness book on every dimension — read the per-axis detail "
+          "above. A portfolio matching this signature merits closer "
+          "position-level liquidity and leverage review, not an assumption "
+          "of imminent distress."
     )
 else:
     recommendation = (
@@ -260,14 +279,27 @@ caveat = ""
 if len(screen_df):
     extreme_single = screen_df[(screen_df.hhi_current > 0.5) & (~screen_df.flagged)]
     if len(extreme_single):
+        # State the ACTUAL reason each is excluded (axis count), not a
+        # generic one. An earlier draft of this text blamed the crowding
+        # axis — but the filer that WAS flagged also holds only 1 of 4
+        # names, so that reason does not distinguish the two cases.
+        rows = []
+        for _, r in extreme_single.iterrows():
+            rows.append(
+                f"{r.filer.strip()} (HHI {r.hhi_current:.3f}) breaches only "
+                f"{r.axes_breached} of 3 axes — its concentration is extreme "
+                f"but essentially unchanged quarter-over-quarter "
+                f"(trend {r.hhi_trend:+.3f}), so it fails the trend axis"
+            )
         caveat = (
-            f"\n\nCaveat: {', '.join(extreme_single.filer.tolist())} "
-            f"show(s) extreme single-name concentration (HHI > 0.5) but is "
-            f"not flagged here because it holds only 1 of the 4 tracked "
-            f"names — this screen targets multi-name crowding in the same "
-            f"illiquid AI-infrastructure trade, not single-stock "
-            f"concentration generally, which is a real but different risk "
-            f"category outside this project's scope."
+            "\n\nCaveat — high concentration alone is not a flag: "
+            + "; ".join(rows)
+            + ". Note that the flagged filer(s) above also hold only 1 of the "
+              "4 tracked names, so multi-name crowding is not what separates "
+              "them; the separator is concentration TREND. Static single-name "
+              "concentration is a real risk, but a structurally different one "
+              "this screen was not designed to catch — see notebook 07 for why "
+              "a single static concentration threshold was rejected."
         )
         print(caveat)
 

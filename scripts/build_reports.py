@@ -75,8 +75,8 @@ def build_executive_summary():
     story.append(Paragraph("Headline Numbers", styles["H2"]))
     data = [
         ["Metric", "Value"],
-        ["Disclosed 13F long book, 30 Jun 2026", "$20.24bn / 26 positions"],
-        ["Top-2 concentration (SanDisk + Micron)", "55.5% of book"],
+        ["Disclosed 13F book, 30 Jun 2026", "$20.24bn gross / 26 entries ($20.17bn long, 23 positions)"],
+        ["Top-2 concentration (SanDisk + Micron)", "55.5% of disclosed gross"],
         ["Put-linked exposure, Q1 2026 -> Q2 2026", "61.9% -> 0.03% of gross"],
         ["Herfindahl index, Q1 2026 -> Q2 2026", "0.070 -> 0.176"],
         ["Book-weighted days-to-liquidate @ 20% ADV", "1.55 days (book screened LIQUID)"],
@@ -150,8 +150,13 @@ def build_executive_summary():
 
 
 def build_risk_memo():
+    # This memo is deliberately held to ONE page — it is the artifact a risk
+    # officer reads standing up. Body leading is tightened slightly versus
+    # the executive summary to keep it there as content grew.
+    memo_body = ParagraphStyle("MemoBody", parent=styles["Body"],
+                                fontSize=9.2, leading=12.4, spaceAfter=5)
     doc = SimpleDocTemplate(str(cfg.REPORTS / "RISK_MEMO.pdf"), pagesize=LETTER,
-                             topMargin=0.5 * inch, bottomMargin=0.5 * inch,
+                             topMargin=0.45 * inch, bottomMargin=0.45 * inch,
                              leftMargin=0.7 * inch, rightMargin=0.7 * inch)
     story = []
     story.append(Paragraph("Risk Memo: Crowded-Trade Signature Screen", styles["H1"]))
@@ -167,10 +172,10 @@ def build_risk_memo():
         "Flag Symmetry Peak Management LLC (CIK 0001389234) for a closer position-level liquidity "
         "and leverage review. Its 13F-disclosed concentration index rose from 0.103 to 0.237 in the "
         "most recent quarter -- a larger single-quarter jump than Situational Awareness's own "
-        "pre-collapse move (0.070 to 0.176) -- while also holding one of the four illiquid "
-        "AI-infrastructure names this screen tracks. No other filer in the 12 screened breaches "
-        "2 of the 3 risk axes established below.",
-        styles["Body"]))
+        "pre-collapse move (0.070 to 0.176). It breaches the concentration LEVEL and TREND axes; it "
+        "does NOT breach the multi-name crowding axis (it holds 1 of the 4 tracked names, not 2+). "
+        "No other filer in the 12 screened breaches 2 of the 3 risk axes established below.",
+        memo_body))
 
     story.append(Paragraph("Basis for the Screen", styles["H2"]))
     story.append(Paragraph(
@@ -183,7 +188,7 @@ def build_risk_memo():
         "from this project's back-test for the same reason: it filed no 13F at all). The screen "
         "below therefore requires a filer to breach at least 2 of 3 independent axes before "
         "flagging:",
-        styles["Body"]))
+        memo_body))
     axes = [
         ["Axis", "Threshold", "Rationale"],
         ["Concentration level", "Herfindahl index > 0.10",
@@ -205,16 +210,18 @@ def build_risk_memo():
         "via SEC EDGAR full-text search across all four CUSIPs. This is a scoped screen, not an "
         "exhaustive market sweep -- absence of a flag means not found within this stated scope, "
         "not the absence of risk in the broader market.",
-        styles["Body"]))
+        memo_body))
 
-    story.append(Paragraph("Caveat", styles["H2"]))
+    story.append(Paragraph("Caveat -- what actually separates flagged from unflagged", styles["H2"]))
     story.append(Paragraph(
         "Gullane Capital, LLC shows extreme single-name concentration (Herfindahl index 0.875) but "
-        "is not flagged, because it holds only 1 of the 4 tracked names -- this screen targets "
-        "multi-name crowding in the same illiquid trade specifically, not single-stock "
-        "concentration generally, which is a real but structurally different risk this screen was "
-        "not designed to catch.",
-        styles["Body"]))
+        "is not flagged, because it breaches only 1 of the 3 axes: its concentration is extreme yet "
+        "essentially unchanged quarter-over-quarter (trend -0.003), so it fails the trend axis. "
+        "Note that Symmetry Peak -- the filer that IS flagged -- also holds only 1 of the 4 tracked "
+        "names, so multi-name crowding is not the separator between them; concentration TREND is. "
+        "Neither filer breaches the crowding axis. Static single-name concentration is a real risk, "
+        "but a structurally different one this screen was not designed to catch.",
+        memo_body))
 
     story.append(Paragraph("Scope and Limits", styles["H2"]))
     story.append(Paragraph(
@@ -224,7 +231,7 @@ def build_risk_memo():
         "flagged filer's actual leverage, short book, or off-exchange exposure, which is precisely "
         "the blind spot that obscured the original case this project is built on. A signature match "
         "on the axes above is a prompt for a closer, non-public review -- not a substitute for one.",
-        styles["Body"]))
+        memo_body))
 
     story.append(Spacer(1, 14))
     story.append(Paragraph(
