@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Created by Xml Authority v4.2.3.1 (.xal v1.271)  -->
+<informationTable xmlns="http://www.sec.gov/edgar/document/thirteenf/informationtable" xmlns:n1="http://www.sec.gov/edgar/document/thirteenf/informationtable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sec.gov/edgar/document/thirteenf/informationtable eis_13FDocument.xsd">
+  <n1:infoTable>
+    <n1:nameOfIssuer>1RT ACQUISITION CORP.</n1:nameOfIssuer>
+    <n1:titleOfClass>UNIT 06/26/2030</n1:titleOfClass>
+    <n1:cusip>G6757R121</n1:cusip>
+    <n1:value>205606</n1:value>
+    <n1:shrsOrPrnAmt>
+      <n1:sshPrnamt>20000</n1:sshPrnamt>
+      <n1:sshPrnamtType>SH</n1:sshPrnamtType>
+    </n1:shrsOrPrnAmt>
+    <n1:investmentDiscretion>DFND</n1:investmentDiscretion>
+    <n1:otherManager>1</n1:otherManager>
+    <n1:votingAuthority>
+      <n1:Sole>20000</n1:Sole>
+      <n1:Shared>0</n1:Shared>
+      <n1:None>0</n1:None>
+    </n1:votingAuthority>
+  </n1:infoTable>
+  <n1:infoTable>
+    <n1:nameOfIssuer>ADVISORSHARES TR</n1:nameOfIssuer>
+    <n1:titleOfClass>PURE US CANNABIS</n1:titleOfClass>
+    <n1:cusip>00768Y453</n1:cusip>
+    <n1:value>1331250</n1:value>
+    <n1:shrsOrPrnAmt>
+      <n1:sshPrnamt>375000</n1:sshPrnamt>
+      <n1:sshPrnamtType>SH</n1:sshPrnamtType>
+    </n1:shrsOrPrnAmt>
+    <n1:investmentDiscretion>DFND</n1:investmentDiscretion>
+    <n1:otherManager>1</n1:otherManager>
+    <n1:votingAuthority>
+      <n1:Sole>375000</n1:Sole>
+      <n1:Shared>0</n1:Shared>
+      <n1:None>0</n1:None>
+    </n1:votingAuthority>
+  </n1:infoTable>
+  <n1:infoTable>
+    <n1:nameOfIssuer>AEVA TECHNOLOGIES INC</n1:nameOfIssuer>
+    <n1:titleOfClass>COM NEW</n1:titleOfClass>
+    <n1:cusip>00835Q202</n1:cusip>
+    <n1:value>3290000</n1:value>
+    <n1:shrsOrPrnAmt>
+      <n1:sshPrnamt>250000</n1:sshPrnamt>
+      <n1:sshPrnamtType>SH</n1:sshPrnamtType>
+    </n1:shrsOrPrnAmt>
+    <n1:investmentDiscretion>DFND</n1:investmentDiscretion>
+    <n1:otherManager>1</n1:otherManager>
+    <n1:votingAuthority>
+      <n1:Sole>250000</n1:Sole>
+      <n1:Shared>0</n1:Shared>
+      <n1:None>0</n1:None>
+    </n1:votingAuthority>
+  </n1:infoTable>
+  <n1:infoTable>
+    <n1:nameOfIssuer>APOLLO GLOBAL MGMT INC</n1:nameOfIssuer>
+    <n1:titleOfClass>COM</n1:titleOfClass>
+    <n1:cusip>03769M106</n1:cusip>
+    <n1:value>13927500</n1:value>
+    <n1:shrsOrPrnAmt>
+      <n1:sshPrnamt>125000</n1:sshPrnamt>
+      <n1:sshPrnamtType>SH</n1:sshPrnamtType>
+    </n1:shrsOrPrnAmt>
+    <n1:investmentDiscretion>DFND</n1:investmentDiscretion>
+    <n1:otherManager>1</n1:otherManager>
+    <n1:votingAuthority>
+      <n1:Sole>125000</n1:Sole>
+      <n1:Shared>0</n1:Shared>
+      <n1:None>0</n1:None>
+    </n1:votingAuthority>
+  </n1:infoTable>
+  <n1:infoTable>
+    <n1:nameOfIssuer>APOLLO GLOBAL MGMT INC</n1:nameOfIssuer>
+    <n1:titleOfClass>COM</n1:titleOfClass>
+    <n1:cusip>03769M106</n1:cusip>
+    <n1:value>5571000</n1:value>
+    <n1:shrsOrPrnAmt>
+      <n1:sshPrnamt>50000</n1:sshPrnamt>
+      <n1:sshPrnamtType>SH</n1:sshPrnamtType>
+    </n1:shrsOrPrnAmt>
+    <n1:putCall>Put</n1:putCall>
+    <n1:investmentDiscretion>DFND</n1:investmentDiscretion>
+    <n1:otherManager>1</n1:otherManager>
+    <n1:votingAuthority>
+      <n1:Sole>50000</n1:Sole>
+      <n1:Shared>0</n1:Shared>
+      <n1:None>0</n1:None>
+    </n1:votingAuthority>
+  </n1:infoTable>
+  <n1:infoTable>
+    <n1:nameOfIssuer>APPLIED OPTOELECTRONICS INC</n1:nameOfIssuer>
+    <n1:titleOfClass>COM</n1:titleOfClass>
+    <n1:cusip>03823U102</n1:cusip>
+    <n1:value>4229500</n1:value>
+    <n1:shrsOrPrnAmt>
+      <n1:sshPrnamt>50000</n1:sshPrnamt>
+      <n1:sshPrnamtType>SH</n1:sshPrnamtType>
+    </n1:shrsOrPrnAmt>
+    <n1:putCall>Call</n1:putCall>
+    <n1:investmentDiscretion>DFND</n1:investmentDiscretion>
+    <n1:otherManager>1</n1:otherManager>
+    <n1:votingAuthority>
+      <n1:Sole>50000</n1:Sole>
+      <n1:Shared>0</n1:Shared>
+      <n1:None>0</n1:None>
+    </n1:votingAuthority>
+  </n1:infoTable>
+  <n1:infoTable>
+    <n1:nameOfIssuer>BITDEER TECHNOLOGIES GROUP</n1:nameOfIssuer>
+    <n1:titleOfClass>CL A ORD SHS</n1:titleOfClass>
+    <n1:cusip>G11448100</n1:cusip>
+    <n1:value>2162500</n1:value>
+    <n1:shrsOrPrnAmt>
+      <n1:sshPrnamt>250000</n1:sshPrnamt>
+      <n1:sshPrnamtType>SH</n1:sshPrnamtType>
+    </n1:shrsOrPrnAmt>
+    <n1:putCall>Call</n1:putCall>
+    <n1:investmentDiscretion>DFND</n1:investmentDiscretion>
+    <n1:otherManager>1</n1:otherManager>
+    <n1:votingAuthority>
+      <n1:Sole>250000</n1:Sole>
+      <n1:Shared>0</n1:Shared>
+      <n1:None>0</n1:None>
+    </n1:votingAuthority>
+  </n1:infoTable>
+  <n1:infoTable>
+    <n1:nameOfIssuer>BURFORD CAPITAL LIMITED</n1:nameOfIssuer>
+    <n1:titleOfClass>ORD SHS</n1:titleOfClass>
+    <n1:cusip>G17977110</n1:cusip>
+    <n1:value>113000</n1:value>
+    <n1:shrsOrPrnAmt>
+      <n1:sshPrnamt>25000</n1:sshPrnamt>
+      <n1:sshPrnamtType>SH</n1:sshPrnamtType>
+    </n1:shrsOrPrnAmt>
+    <n1:investmentDiscretion>DFND</n1:investmentDiscretion>
+    <n1:otherManager>1</n1:otherManager>
+    <n1:votingAuthority>
+      <n1:Sole>25000</n1:Sole>
+      <n1:Shared>0</n1:Shared>
+      <n1:None>0</n1:None>
+    </n1:votingAuthority>
+  </n1:infoTable>
+  <n1:infoTable>
+    <n1:nameOfIssuer>CANTOR EQUITY PARTNERS IV IN</n1:nameOfIssuer>
+    <n1:titleOfClass>SHS CL A</n1:titleOfClass>
+    <n1:cusip>G1828E100</n1:cusip>
+    <n1:value>203800</n1:value>
+    <n1:shrsOrPrnAmt>
+      <n1:sshPrnamt>20000</n1:sshPrnamt>
+      <n1:sshPrnamtType>SH</n1:sshPrnamtType>
+    </n1:shrsOrPrnAmt>
+    <n1:investmentDiscretion>DFND</n1:investmentDiscretion>
+    <n1:otherManager>1</n1:otherManager>
+    <n1:votingAuthority>
+      <n1:Sole>20000</n1:Sole>
+      <n1:Shared>0</n1:Shared>
+      <n1:None>0</n1:None>
+    </n1:votingAuthority>
+  </n1:infoTable>
+  <n1:infoTable>
+    <n1:nameOfIssuer>CANTOR EQUITY PARTNERS V INC</n1:nameOfIssuer>
+    <n1:titleOfClass>SHS CL A S</n1:titleOfClass>
+    <n1:cusip>G1828S109</n1:cusip>
+    <n1:value>202000</n1:value>
+    <n1:shrsOrPrnAmt>
+      <n1:sshPrnamt>20000</n1:sshPrnamt>
+      <n1:sshPrnamtType>SH</n1:sshPrnamtType>
+    </n1:shrsOrPrnAmt>
+    <n1:investmentDiscretion>DFND</n1:investmentDiscretion>
+    <n1:otherManager>1</n1:otherManager>
+    <n1:votingAuthority>
+      <n1:Sole>20000</n1:Sole>
+      <n1:Shared>0</n1:Shared>
+      <n1:None>0</n1:None>
+    </n1:votingAuthority>
+  </n1:infoTable>
+  <n1:infoTable>
+    <n1:nameOfIssuer>CHURCHILL CAP CORP XI</n1:nameOfIssuer>
+    <n1:titleOfClass>UNIT 12/10/2030</n1:titleOfClass>
+    <n1:cusip>G2131A124</n1:cusip>
+    <n1:value>205000</n1:value>
+    <n1:shrsOrPrnAmt>
+      <n1:sshPrnamt>20000</n1:sshPrnamt>
+      <n1:sshPrnamtType>SH</n1:sshPrnamtType>
+    </n1:shrsOrPrnAmt>
+    <n1:investmentDiscretion>DFND</n1:investmentDiscretion>
+    <n1:otherManager>1</n1:otherManager>
+    <n1:votingAuthority>
+      <n1:Sole>20000</n1:Sole>
+      <n1:Shared>0</n1:Shared>
+      <n1:None>0</n1:None>
+    </n1:votingAuthority>
+  </n1:infoTable>
+  <n1:infoTable>
+    <n1:nameOfIssuer>CLARITEV CORPORATION</n1:nameOfIssuer>
+    <n1:titleOfClass>CL A NEW</n1:titleOfClass>
+    <n1:cusip>62548M209</n1:cusip>
+    <n1:value>1446466</n1:value>
+    <n1:shrsOrPrnAmt>
+      <n1:sshPrnamt>88523</n1:sshPrnamt>
+      <n1:sshPrnamtType>SH</n1:sshPrnamtType>
+    </n1:shrsOrPrnAmt>
+    <n1:investmentDiscretion>DFND</n1:investmentDiscretion>
+    <n1:otherManager>1</n1:otherManager>
+    <n1:votingAuthority>
+      <n1:Sole>88523</n1:Sole>
+      <n1:Shared>0</n1:Shared>
+      <n1:None>0</n1:None>
+    </n1:votingAuthority>
+  </n1:infoTable>
+  <n1:infoTable>
+    <n1:nameOfIssuer>CLEANSPARK INC</n1:nameOfIssuer>
+    <n1:titleOfClass>COM NEW</n1:titleOfClass>
+    <n1:cusip>18452B209</n1:cusip>
+    <n1:value>2553000</n1:value>
+    <n1:shrsOrPrnAmt>
+      <n1:sshPrnamt>300000</n1:sshPrnamt>
+      <n1:sshPrnamtType>SH</n1:sshPrnamtType>
+    </n1:shrsOrPrnAmt>
+    <n1:investmentDiscretion>DFND</n1:investmentDiscretion>
+    <n1:otherManager>1</n1:otherManager>
+    <n1:votingAuthority>
+      <n1:Sole>300000</n1:Sole>
+      <n1:Shared>0</n1:Shared>
+      <n1:None>0</n1:None>
+    </n1:votingAuthority>
+  </n1:infoTable>
+  <n1:infoTable>
+    <n1:nameOfIssuer>CLEANSPARK INC</n1:nameOfIssuer>
+    <n1:titleOfClass>COM NEW</n1:titleOfClass>
+    <n1:cusip>18452B209</n1:cusip>
+    <n1:value>6382500</n1:value>
+    <n1:shrsOrPrnAmt>
+      <n1:sshPrnamt>750000</n1:sshPrnamt>
+      <n1:sshPrnamtType>SH</n1:sshPrnamtType>
+    </n1:shrsOrPrnAmt>
+    <n1:putCall>Call</n1:putCall>
+    <n1:investmentDiscretion>DFND</n1:investmentDiscretion>
+    <n1:otherManager>1</n1:otherManager>
+    <n1:votingAuthority>
+      <n1:Sole>750000</n1:Sole>
+      <n1:Shared>0</n1:Shared>
+      <n1:None>0</n1:None>
+    </n1:votingAuthority>
+  </n1:infoTable>
+  <n1:infoTable>
+    <n1:nameOfIssuer>CLENE INC</n1:nameOfIssuer>
+    <n1:titleOfClass>COM NEW</n1:titleOfClass>
+    <n1:cusip>185634201</n1:cusip>
+    <n1:value>1479000</n1:value>
+    <n1:shrsOrPrnAmt>
+      <n1:sshPrnamt>300000</n1:sshPrnamt>
+      <n1:sshPrnamtType>SH</n1:sshPrnamtType>
+    </n1:shrsOrPrnAmt>
+    <n1:investmentDiscretion>DFND</n1:investmentDiscretion>
+    <n1:otherManager>1</n1:otherManager>
+    <n1:votingAuthority>
+      <n1:Sole>300000</n1:Sole>
+      <n1:Shared>0</n1:Shared>
+      <n1:None>0</n1:None>
+    </n1:votingAuthority>
+  </n1:infoTable>
+  <n1:infoTable>
+    <n1:nameOfIssuer>CORE SCIENTIFIC INC NEW</n1:nameOfIssuer>
+    <n1:titleOfClass>COM</n1:titleOfClass>
+    <n1:cusip>21874A106</n1:cusip>
+    <n1:value>29920000</n1:value>
+    <n1:shrsOrPrnAmt>
+      <n1:sshPrnamt>2000000</n1:sshPrnamt>
+      <n1:sshPrnamtType>SH</n1:sshPrnamtType>
+    </n1:shrsOrPrnAmt>
+    <n1:investmentDiscretion>DFND</n1:investmentDiscretion>
+    <n1:otherManager>1</n1:otherManager>
+    <n1:votingAuthority>
+      <n1:Sole>2000000</n1:Sole>
+      <n1:Shared>0</n1:Shared>
+      <n1:None>0</n1:None>
+    </n1:votingAuthority>
+  </n1:infoTable>
+  <n1:infoTable>
+    <n1:nameOfIssuer>CORE SCIENTIFIC INC NEW</n1:nameOfIssuer>
+    <n1:titleOfClass>COM</n1:titleOfClass>
+    <n1:cusip>21874A106</n1:cusip>
+    <n1:value>47124000</n1:value>
+    <n1:shrsOrPrnAmt>
+      <n1:sshPrnamt>3150000</n1:sshPrnamt>
+      <n1:sshPrnamtType>SH</n1:sshPrnamtType>
+    </n1:shrsOrPrnAmt>
+    <n1:putCall>Call</n1:putCall>
+    <n1:investmentDiscretion>DFND</n1:investmentDiscretion>
+    <n1:otherManager>1</n1:otherManager>
+    <n1:votingAuthority>
+      <n1:Sole>3150000</n1:Sole>
+      <n1:Shared>0</n1:Shared>
+      <n1:None>0</n1:None>
+    </n1:votingAuthority>
+  </n1:infoTable>
+  <n1:infoTable>
+    <n1:nameOfIssuer>ECHOSTAR CORP</n1:nameOfIssuer>
+    <n1:titleOfClass>CL A</n1:titleOfClass>
+    <n1:cusip>278768106</n1:cusip>
+    <n1:value>17560500</n1:value>
+    <n1:shrsOrPrnAmt>
+      <n1:sshPrnamt>150000</n1:sshPrnamt>
+      <n1:sshPrnamtType>SH</n1:sshPrnamtType>
+    </n1:shrsOrPrnAmt>
+    <n1:investmentDiscretion>DFND</n1:investmentDiscretion>
+    <n1:otherManager>1</n1:otherManager>
+    <n1:votingAuthority>
+      <n1:Sole>150000</n1:Sole>
+      <n1:Shared>0</n1:Shared>
+      <n1:None>0</n1:None>
+    </n1:votingAuthority>
+  </n1:infoTable>
+  <n1:infoTable>
+    <n1:nameOfIssuer>ECHOSTAR CORP</n1:nameOfIssuer>
+    <n1:titleOfClass>CL A</n1:titleOfClass>
+    <n1:cusip>278768106</n1:cusip>
+    <n1:value>14633750</n1:value>
+    <n1:shrsOrPrnAmt>
+      <n1:sshPrnamt>125000</n1:sshPrnamt>
+      <n1:sshPrnamtType>SH</n1:sshPrnamtType>
+    </n1:shrsOrPrnAmt>
+    <n1:putCall>Call</n1:putCall>
+    <n1:investmentDiscretion>DFND</n1:investmentDiscretion>
+    <n1:otherManager>1</n1:otherManager>
+    <n1:votingAuthority>
+      <n1:Sole>125000</n1:Sole>
+      <n1:Shared>0</n1:Shared>
+      <n1:None>0</n1:None>
+    </n1:votingAuthority>
+  </n1:infoTable>
+  <n1:infoTable>
+    <n1:nameOfIssuer>ENERGY VAULT HOLDINGS INC</n1:nameOfIssuer>
+    <n1:titleOfClass>COM</n1:titleOfClass>
+    <n1:cusip>29280W109</n1:cusip>
+    <n1:value>18150000</n1:value>
+    <n1:shrsOrPrnAmt>
+      <n1:sshPrnamt>5500000</n1:sshPrnamt>
+      <n1:sshPrnamtType>SH</n1:sshPrnamtType>
+    </n1:shrsOrPrnAmt>
+    <n1:investmentDiscretion>DFND</n1:investmentDiscretion>
+    <n1:otherManager>1</n1:otherManager>
+    <n1:votingAuthority>
+      <n1:Sole>5500000</n1:Sole>
+      <n1:Shared>0</n1:Shared>
+      <n1:None>0</n1:None>
+    </n1:votingAuthority>
+  </n1:infoTable>
+  <n1:infoTable>
+    <n1:nameOfIssuer>ENERGY VAULT HOLDINGS INC</n1:nameOfIssuer>
+    <n1:titleOfClass>COM</n1:titleOfClass>
+    <n1:cusip>29280W109</n1:cusip>
+    <n1:value>4125000</n1:value>
+    <n1:shrsOrPrnAmt>
+      <n1:sshPrnamt>1250000</n1:sshPrnamt>
+      <n1:sshPrnamtType>SH</n1:sshPrnamtType>
+    </n1:shrsOrPrnAmt>
+    <n1:putCall>Call</n1:putCall>
+    <n1:investmentDiscretion>DFND</n1:investmentDiscretion>
+    <n1:otherManager>1</n1:otherManager>
+    <n1:votingAuthority>
+      <n1:Sole>1250000</n1:Sole>
+      <n1:Shared>0</n1:Shared>
+      <n1:None>0</n1:None>
+    </n1:votingAuthority>
+  </n1:infoTable>
+  <n1:infoTable>
+    <n1:nameOfIssuer>ENVIRI CORP</n1:nameOfIssuer>
+    <n1:titleOfClass>COM</n1:titleOfClass>
+    <n1:cusip>415864107</n1:cusip>
+    <n1:value>9810000</n1:value>
+    <n1:shrsOrPrnAmt>
+      <n1:sshPrnamt>500000</n1:sshPrnamt>
+      <n1:sshPrnamtType>SH</n1:sshPrnamtType>
+    </n1:shrsOrPrnAmt>
+    <n1:investmentDiscretion>DFND</n1:investmentDiscretion>
+    <n1:otherManager>1</n1:otherManager>
+    <n1:votingAuthority>
+      <n1:Sole>500000</n1:Sole>
+      <n1:Shared>0</n1:Shared>
+      <n1:None>0</n1:None>
+    </n1:votingAuthority>
+  </n1:infoTable>
+  <n1:infoTable>
+    <n1:nameOfIssuer>EVOLUTION GLOBAL ACQUISITION</n1:nameOfIssuer>
+    <n1:titleOfClass>UNIT 10/22/2030</n1:titleOfClass>
+    <n1:cusip>G3226F127</n1:cusip>
+    <n1:value>204000</n1:value>
+    <n1:shrsOrPrnAmt>
+      <n1:sshPrnamt>20000</n1:sshPrnamt>
+      <n1:sshPrnamtType>SH</n1:sshPrnamtType>
+    </n1:shrsOrPrnAmt>
+    <n1:investmentDiscretion>DFND</n1:investmentDiscretion>
+    <n1:otherManager>1</n1:otherManager>
+    <n1:votingAuthority>
+      <n1:Sole>20000</n1:Sole>
+      <n1:Shared>0</n1:Shared>
+      <n1:None>0</n1:None>
+    </n1:votingAuthority>
+  </n1:infoTable>
+  <n1:infoTable>
+    <n1:nameOfIssuer>FUTURECREST ACQUISITION CORP</n1:nameOfIssuer>
+    <n1:titleOfClass>UNIT 99/99/9999</n1:titleOfClass>
+    <n1:cusip>G3730U123</n1:cusip>
+    <n1:value>203600</n1:value>
+    <n1:shrsOrPrnAmt>
+      <n1:sshPrnamt>20000</n1:sshPrnamt>
+      <n1:sshPrnamtType>SH</n1:sshPrnamtType>
+    </n1:shrsOrPrnAmt>
+    <n1:investmentDiscretion>DFND</n1:investmentDiscretion>
+    <n1:otherManager>1</n1:otherManager>
+    <n1:votingAuthority>
+      <n1:Sole>20000</n1:Sole>
+      <n1:Shared>0</n1:Shared>
+      <n1:None>0</n1:None>
+    </n1:votingAuthority>
+  </n1:infoTable>
+  <n1:infoTable>
+    <n1:nameOfIssuer>HUT 8 CORP</n1:nameOfIssuer>
+    <n1:titleOfClass>COM</n1:titleOfClass>
+    <n1:cusip>44812J104</n1:cusip>
+    <n1:value>11727500</n1:value>
+    <n1:shrsOrPrnAmt>
+      <n1:sshPrnamt>250000</n1:sshPrnamt>
+      <n1:sshPrnamtType>SH</n1:sshPrnamtType>
+    </n1:shrsOrPrnAmt>
+    <n1:putCall>Call</n1:putCall>
+    <n1:investmentDiscretion>DFND</n1:investmentDiscretion>
+    <n1:otherManager>1</n1:otherManager>
+    <n1:votingAuthority>
+      <n1:Sole>250000</n1:Sole>
+      <n1:Shared>0</n1:Shared>
+      <n1:None>0</n1:None>
+    </n1:votingAuthority>
+  </n1:infoTable>
+  <n1:infoTable>
+    <n1:nameOfIssuer>INVESCO QQQ TR</n1:nameOfIssuer>
+    <n1:titleOfClass>UNIT SER 1</n1:titleOfClass>
+    <n1:cusip>46090E103</n1:cusip>
+    <n1:value>194798250</n1:value>
+    <n1:shrsOrPrnAmt>
+      <n1:sshPrnamt>337500</n1:sshPrnamt>
+      <n1:sshPrnamtType>SH</n1:sshPrnamtType>
+    </n1:shrsOrPrnAmt>
+    <n1:putCall>Put</n1:putCall>
+    <n1:investmentDiscretion>DFND</n1:investmentDiscretion>
+    <n1:otherManager>1</n1:otherManager>
+    <n1:votingAuthority>
+      <n1:Sole>337500</n1:Sole>
+      <n1:Shared>0</n1:Shared>
+      <n1:None>0</n1:None>
+    </n1:votingAuthority>
+  </n1:infoTable>
+  <n1:infoTable>
+    <n1:nameOfIssuer>ISHARES BITCOIN TRUST ETF</n1:nameOfIssuer>
+    <n1:titleOfClass>SHS BEN INT</n1:titleOfClass>
+    <n1:cusip>46438F101</n1:cusip>
+    <n1:value>15368000</n1:value>
+    <n1:shrsOrPrnAmt>
+      <n1:sshPrnamt>400000</n1:sshPrnamt>
+      <n1:sshPrnamtType>SH</n1:sshPrnamtType>
+    </n1:shrsOrPrnAmt>
+    <n1:putCall>Put</n1:putCall>
+    <n1:investmentDiscretion>DFND</n1:investmentDiscretion>
+    <n1:otherManager>1</n1:otherManager>
+    <n1:votingAuthority>
+      <n1:Sole>400000</n1:Sole>
+      <n1:Shared>0</n1:Shared>
+      <n1:None>0</n1:None>
+    </n1:votingAuthority>
+  </n1:infoTable>
+  <n1:infoTable>
+    <n1:nameOfIssuer>ISHARES TR</n1:nameOfIssuer>
+    <n1:titleOfClass>EXPANDED TECH</n1:titleOfClass>
+    <n1:cusip>464287515</n1:cusip>
+    <n1:value>4002500</n1:value>
+    <n1:shrsOrPrnAmt>
+      <n1:sshPrnamt>50000</n1:sshPrnamt>
+      <n1:sshPrnamtType>SH</n1:sshPrnamtType>
+    </n1:shrsOrPrnAmt>
+    <n1:putCall>Call</n1:putCall>
+    <n1:investmentDiscretion>DFND</n1:investmentDiscretion>
+    <n1:otherManager>1</n1:otherManager>
+    <n1:votingAuthority>
+      <n1:Sole>50000</n1:Sole>
+      <n1:Shared>0</n1:Shared>
+      <n1:None>0</n1:None>
+    </n1:votingAuthority>
+  </n1:infoTable>
+  <n1:infoTable>
+    <n1:nameOfIssuer>ISHARES TR</n1:nameOfIssuer>
+    <n1:titleOfClass>RUSSELL 2000 ETF</n1:titleOfClass>
+    <n1:cusip>464287655</n1:cusip>
+    <n1:value>31000000</n1:value>
+    <n1:shrsOrPrnAmt>
+      <n1:sshPrnamt>125000</n1:sshPrnamt>
+      <n1:sshPrnamtType>SH</n1:sshPrnamtType>
+    </n1:shrsOrPrnAmt>
+    <n1:putCall>Put</n1:putCall>
+    <n1:investmentDiscretion>DFND</n1:investmentDiscretion>
+    <n1:otherManager>1</n1:otherManager>
+    <n1:votingAuthority>
+      <n1:Sole>125000</n1:Sole>
+      <n1:Shared>0</n1:Shared>
+      <n1:None>0</n1:None>
+    </n1:votingAuthority>
+  </n1:infoTable>
+  <n1:infoTable>
+    <n1:nameOfIssuer>LENZ THERAPEUTICS INC</n1:nameOfIssuer>
+    <n1:titleOfClass>COM</n1:titleOfClass>
+    <n1:cusip>52635N103</n1:cusip>
+    <n1:value>1143750</n1:value>
+    <n1:shrsOrPrnAmt>
+      <n1:sshPrnamt>125000</n1:sshPrnamt>
+      <n1:sshPrnamtType>SH</n1:sshPrnamtType>
+    </n1:shrsOrPrnAmt>
+    <n1:investmentDiscretion>DFND</n1:investmentDiscretion>
+    <n1:otherManager>1</n1:otherManager>
+    <n1:votingAuthority>
+      <n1:Sole>125000</n1:Sole>
+      <n1:Shared>0</n1:Shared>
+      <n1:None>0</n1:None>
+    </n1:votingAuthority>
+  </n1:infoTable>
+  <n1:infoTable>
+    <n1:nameOfIssuer>NEBIUS GROUP N.V.</n1:nameOfIssuer>
+    <n1:titleOfClass>SHS CLASS A</n1:titleOfClass>
+    <n1:cusip>N97284108</n1:cusip>
+    <n1:value>12970000</n1:value>
+    <n1:shrsOrPrnAmt>
+      <n1:sshPrnamt>125000</n1:sshPrnamt>
+      <n1:sshPrnamtType>SH</n1:sshPrnamtType>
+    </n1:shrsOrPrnAmt>
+    <n1:investmentDiscretion>DFND</n1:investmentDiscretion>
+    <n1:otherManager>1</n1:otherManager>
+    <n1:votingAuthority>
+      <n1:Sole>125000</n1:Sole>
+      <n1:Shared>0</n1:Shared>
+      <n1:None>0</n1:None>
+    </n1:votingAuthority>
+  </n1:infoTable>
+  <n1:infoTable>
+    <n1:nameOfIssuer>NEBIUS GROUP N.V.</n1:nameOfIssuer>
+    <n1:titleOfClass>SHS CLASS A</n1:titleOfClass>
+    <n1:cusip>N97284108</n1:cusip>
+    <n1:value>10376000</n1:value>
+    <n1:shrsOrPrnAmt>
+      <n1:sshPrnamt>100000</n1:sshPrnamt>
+      <n1:sshPrnamtType>SH</n1:sshPrnamtType>
+    </n1:shrsOrPrnAmt>
+    <n1:putCall>Call</n1:putCall>
+    <n1:investmentDiscretion>DFND</n1:investmentDiscretion>
+    <n1:otherManager>1</n1:otherManager>
+    <n1:votingAuthority>
+      <n1:Sole>100000</n1:Sole>
+      <n1:Shared>0</n1:Shared>
+      <n1:None>0</n1:None>
+    </n1:votingAuthority>
+  </n1:infoTable>
+  <n1:infoTable>
+    <n1:nameOfIssuer>NEBIUS GROUP N.V.</n1:nameOfIssuer>
+    <n1:titleOfClass>SHS CLASS A</n1:titleOfClass>
+    <n1:cusip>N97284108</n1:cusip>
+    <n1:value>7782000</n1:value>
+    <n1:shrsOrPrnAmt>
+      <n1:sshPrnamt>75000</n1:sshPrnamt>
+      <n1:sshPrnamtType>SH</n1:sshPrnamtType>
+    </n1:shrsOrPrnAmt>
+    <n1:putCall>Put</n1:putCall>
+    <n1:investmentDiscretion>DFND</n1:investmentDiscretion>
+    <n1:otherManager>1</n1:otherManager>
+    <n1:votingAuthority>
+      <n1:Sole>75000</n1:Sole>
+      <n1:Shared>0</n1:Shared>
+      <n1:None>0</n1:None>
+    </n1:votingAuthority>
+  </n1:infoTable>
+  <n1:infoTable>
+    <n1:nameOfIssuer>NOMAD FOODS LTD</n1:nameOfIssuer>
+    <n1:titleOfClass>USD ORD SHS</n1:titleOfClass>
+    <n1:cusip>G6564A105</n1:cusip>
+    <n1:value>2402500</n1:value>
+    <n1:shrsOrPrnAmt>
+      <n1:sshPrnamt>250000</n1:sshPrnamt>
+      <n1:sshPrnamtType>SH</n1:sshPrnamtType>
+    </n1:shrsOrPrnAmt>
+    <n1:investmentDiscretion>DFND</n1:investmentDiscretion>
+    <n1:otherManager>1</n1:otherManager>
+    <n1:votingAuthority>
+      <n1:Sole>250000</n1:Sole>
+      <n1:Shared>0</n1:Shared>
+      <n1:None>0</n1:None>
+    </n1:votingAuthority>
+  </n1:infoTable>
+  <n1:infoTable>
+    <n1:nameOfIssuer>PELOTON INTERACTIVE INC</n1:nameOfIssuer>
+    <n1:titleOfClass>CL A COM</n1:titleOfClass>
+    <n1:cusip>70614W100</n1:cusip>
+    <n1:value>11295141</n1:value>
+    <n1:shrsOrPrnAmt>
+      <n1:sshPrnamt>2632900</n1:sshPrnamt>
+      <n1:sshPrnamtType>SH</n1:sshPrnamtType>
+    </n1:shrsOrPrnAmt>
+    <n1:investmentDiscretion>DFND</n1:investmentDiscretion>
+    <n1:otherManager>1</n1:otherManager>
+    <n1:votingAuthority>
+      <n1:Sole>2632900</n1:Sole>
+      <n1:Shared>0</n1:Shared>
+      <n1:None>0</n1:None>
+    </n1:votingAuthority>
+  </n1:infoTable>
+  <n1:infoTable>
+    <n1:nameOfIssuer>PELOTON INTERACTIVE INC</n1:nameOfIssuer>
+    <n1:titleOfClass>CL A COM</n1:titleOfClass>
+    <n1:cusip>70614W100</n1:cusip>
+    <n1:value>12333750</n1:value>
+    <n1:shrsOrPrnAmt>
+      <n1:sshPrnamt>2875000</n1:sshPrnamt>
+      <n1:sshPrnamtType>SH</n1:sshPrnamtType>
+    </n1:shrsOrPrnAmt>
+    <n1:putCall>Call</n1:putCall>
+    <n1:investmentDiscretion>DFND</n1:investmentDiscretion>
+    <n1:otherManager>1</n1:otherManager>
+    <n1:votingAuthority>
+      <n1:Sole>2875000</n1:Sole>
+      <n1:Shared>0</n1:Shared>
+      <n1:None>0</n1:None>
+    </n1:votingAuthority>
+  </n1:infoTable>
+  <n1:infoTable>
+    <n1:nameOfIssuer>PRIMO BRANDS CORPORATION</n1:nameOfIssuer>
+    <n1:titleOfClass>CLASS A COM SHS</n1:titleOfClass>
+    <n1:cusip>741623102</n1:cusip>
+    <n1:value>4707500</n1:value>
+    <n1:shrsOrPrnAmt>
+      <n1:sshPrnamt>250000</n1:sshPrnamt>
+      <n1:sshPrnamtType>SH</n1:sshPrnamtType>
+    </n1:shrsOrPrnAmt>
+    <n1:putCall>Call</n1:putCall>
+    <n1:investmentDiscretion>DFND</n1:investmentDiscretion>
+    <n1:otherManager>1</n1:otherManager>
+    <n1:votingAuthority>
+      <n1:Sole>250000</n1:Sole>
+      <n1:Shared>0</n1:Shared>
+      <n1:None>0</n1:None>
+    </n1:votingAuthority>
+  </n1:infoTable>
+  <n1:infoTable>
+    <n1:nameOfIssuer>RENATUS TACTICAL ACQUIS</n1:nameOfIssuer>
+    <n1:titleOfClass>UNIT 05/15/2030</n1:titleOfClass>
+    <n1:cusip>G7490F119</n1:cusip>
+    <n1:value>209800</n1:value>
+    <n1:shrsOrPrnAmt>
+      <n1:sshPrnamt>20000</n1:sshPrnamt>
+      <n1:sshPrnamtType>SH</n1:sshPrnamtType>
+    </n1:shrsOrPrnAmt>
+    <n1:investmentDiscretion>DFND</n1:investmentDiscretion>
+    <n1:otherManager>1</n1:otherManager>
+    <n1:votingAuthority>
+      <n1:Sole>20000</n1:Sole>
+      <n1:Shared>0</n1:Shared>
+      <n1:None>0</n1:None>
+    </n1:votingAuthority>
+  </n1:infoTable>
+  <n1:infoTable>
+    <n1:nameOfIssuer>REPUBLIC DIGITAL ACQUISITION</n1:nameOfIssuer>
+    <n1:titleOfClass>UNIT 99/99/9999</n1:titleOfClass>
+    <n1:cusip>G7515A111</n1:cusip>
+    <n1:value>207200</n1:value>
+    <n1:shrsOrPrnAmt>
+      <n1:sshPrnamt>20000</n1:sshPrnamt>
+      <n1:sshPrnamtType>SH</n1:sshPrnamtType>
+    </n1:shrsOrPrnAmt>
+    <n1:investmentDiscretion>DFND</n1:investmentDiscretion>
+    <n1:otherManager>1</n1:otherManager>
+    <n1:votingAuthority>
+      <n1:Sole>20000</n1:Sole>
+      <n1:Shared>0</n1:Shared>
+      <n1:None>0</n1:None>
+    </n1:votingAuthority>
+  </n1:infoTable>
+  <n1:infoTable>
+    <n1:nameOfIssuer>SABLE OFFSHORE CORP</n1:nameOfIssuer>
+    <n1:titleOfClass>COM SHS</n1:titleOfClass>
+    <n1:cusip>78574H104</n1:cusip>
+    <n1:value>4130000</n1:value>
+    <n1:shrsOrPrnAmt>
+      <n1:sshPrnamt>250000</n1:sshPrnamt>
+      <n1:sshPrnamtType>SH</n1:sshPrnamtType>
+    </n1:shrsOrPrnAmt>
+    <n1:putCall>Call</n1:putCall>
+    <n1:investmentDiscretion>DFND</n1:investmentDiscretion>
+    <n1:otherManager>1</n1:otherManager>
+    <n1:votingAuthority>
+      <n1:Sole>250000</n1:Sole>
+      <n1:Shared>0</n1:Shared>
+      <n1:None>0</n1:None>
+    </n1:votingAuthority>
+  </n1:infoTable>
+  <n1:infoTable>
+    <n1:nameOfIssuer>SHARONAI HOLDINGS INC</n1:nameOfIssuer>
+    <n1:titleOfClass>COM CL A</n1:titleOfClass>
+    <n1:cusip>778920306</n1:cusip>
+    <n1:value>340950</n1:value>
+    <n1:shrsOrPrnAmt>
+      <n1:sshPrnamt>15000</n1:sshPrnamt>
+      <n1:sshPrnamtType>SH</n1:sshPrnamtType>
+    </n1:shrsOrPrnAmt>
+    <n1:investmentDiscretion>DFND</n1:investmentDiscretion>
+    <n1:otherManager>1</n1:otherManager>
+    <n1:votingAuthority>
+      <n1:Sole>15000</n1:Sole>
+      <n1:Shared>0</n1:Shared>
+      <n1:None>0</n1:None>
+    </n1:votingAuthority>
+  </n1:infoTable>
+  <n1:infoTable>
+    <n1:nameOfIssuer>SHARPS TECHNOLOGY INC</n1:nameOfIssuer>
+    <n1:titleOfClass>COM</n1:titleOfClass>
+    <n1:cusip>82003F309</n1:cusip>
+    <n1:value>1680000</n1:value>
+    <n1:shrsOrPrnAmt>
+      <n1:sshPrnamt>1000000</n1:sshPrnamt>
+      <n1:sshPrnamtType>SH</n1:sshPrnamtType>
+    </n1:shrsOrPrnAmt>
+    <n1:investmentDiscretion>DFND</n1:investmentDiscretion>
+    <n1:otherManager>1</n1:otherManager>
+    <n1:votingAuthority>
+      <n1:Sole>1000000</n1:Sole>
+      <n1:Shared>0</n1:Shared>
+      <n1:None>0</n1:None>
+    </n1:votingAuthority>
+  </n1:infoTable>
+  <n1:infoTable>
+    <n1:nameOfIssuer>SPACE ASSET ACQUISITION CORP</n1:nameOfIssuer>
+    <n1:titleOfClass>UNIT 01/13/2031</n1:titleOfClass>
+    <n1:cusip>G8375S127</n1:cusip>
+    <n1:value>203800</n1:value>
+    <n1:shrsOrPrnAmt>
+      <n1:sshPrnamt>20000</n1:sshPrnamt>
+      <n1:sshPrnamtType>SH</n1:sshPrnamtType>
+    </n1:shrsOrPrnAmt>
+    <n1:investmentDiscretion>DFND</n1:investmentDiscretion>
+    <n1:otherManager>1</n1:otherManager>
+    <n1:votingAuthority>
+      <n1:Sole>20000</n1:Sole>
+      <n1:Shared>0</n1:Shared>
+      <n1:None>0</n1:None>
+    </n1:votingAuthority>
+  </n1:infoTable>
+  <n1:infoTable>
+    <n1:nameOfIssuer>SPRING VY ACQUISITION CORP I</n1:nameOfIssuer>
+    <n1:titleOfClass>UNIT 01/22/2031</n1:titleOfClass>
+    <n1:cusip>G8377G121</n1:cusip>
+    <n1:value>152400</n1:value>
+    <n1:shrsOrPrnAmt>
+      <n1:sshPrnamt>15000</n1:sshPrnamt>
+      <n1:sshPrnamtType>SH</n1:sshPrnamtType>
+    </n1:shrsOrPrnAmt>
+    <n1:investmentDiscretion>DFND</n1:investmentDiscretion>
+    <n1:otherManager>1</n1:otherManager>
+    <n1:votingAuthority>
+      <n1:Sole>15000</n1:Sole>
+      <n1:Shared>0</n1:Shared>
+      <n1:None>0</n1:None>
+    </n1:votingAuthority>
+  </n1:infoTable>
+  <n1:infoTable>
+    <n1:nameOfIssuer>STATE STR SPDR S&amp;P 500 ETF T</n1:nameOfIssuer>
+    <n1:titleOfClass>TR UNIT</n1:titleOfClass>
+    <n1:cusip>78462F103</n1:cusip>
+    <n1:value>219489750</n1:value>
+    <n1:shrsOrPrnAmt>
+      <n1:sshPrnamt>337500</n1:sshPrnamt>
+      <n1:sshPrnamtType>SH</n1:sshPrnamtType>
+    </n1:shrsOrPrnAmt>
+    <n1:putCall>Put</n1:putCall>
+    <n1:investmentDiscretion>DFND</n1:investmentDiscretion>
+    <n1:otherManager>1</n1:otherManager>
+    <n1:votingAuthority>
+      <n1:Sole>337500</n1:Sole>
+      <n1:Shared>0</n1:Shared>
+      <n1:None>0</n1:None>
+    </n1:votingAuthority>
+  </n1:infoTable>
+  <n1:infoTable>
+    <n1:nameOfIssuer>TERAWULF INC</n1:nameOfIssuer>
+    <n1:titleOfClass>COM</n1:titleOfClass>
+    <n1:cusip>88080T104</n1:cusip>
+    <n1:value>108225000</n1:value>
+    <n1:shrsOrPrnAmt>
+      <n1:sshPrnamt>7500000</n1:sshPrnamt>
+      <n1:sshPrnamtType>SH</n1:sshPrnamtType>
+    </n1:shrsOrPrnAmt>
+    <n1:investmentDiscretion>DFND</n1:investmentDiscretion>
+    <n1:otherManager>1</n1:otherManager>
+    <n1:votingAuthority>
+      <n1:Sole>7500000</n1:Sole>
+      <n1:Shared>0</n1:Shared>
+      <n1:None>0</n1:None>
+    </n1:votingAuthority>
+  </n1:infoTable>
+  <n1:infoTable>
+    <n1:nameOfIssuer>TERAWULF INC</n1:nameOfIssuer>
+    <n1:titleOfClass>COM</n1:titleOfClass>
+    <n1:cusip>88080T104</n1:cusip>
+    <n1:value>125360625</n1:value>
+    <n1:shrsOrPrnAmt>
+      <n1:sshPrnamt>8687500</n1:sshPrnamt>
+      <n1:sshPrnamtType>SH</n1:sshPrnamtType>
+    </n1:shrsOrPrnAmt>
+    <n1:putCall>Call</n1:putCall>
+    <n1:investmentDiscretion>DFND</n1:investmentDiscretion>
+    <n1:otherManager>1</n1:otherManager>
+    <n1:votingAuthority>
+      <n1:Sole>8687500</n1:Sole>
+      <n1:Shared>0</n1:Shared>
+      <n1:None>0</n1:None>
+    </n1:votingAuthority>
+  </n1:infoTable>
+  <n1:infoTable>
+    <n1:nameOfIssuer>TERAWULF INC</n1:nameOfIssuer>
+    <n1:titleOfClass>COM</n1:titleOfClass>
+    <n1:cusip>88080T104</n1:cusip>
+    <n1:value>54112500</n1:value>
+    <n1:shrsOrPrnAmt>
+      <n1:sshPrnamt>3750000</n1:sshPrnamt>
+      <n1:sshPrnamtType>SH</n1:sshPrnamtType>
+    </n1:shrsOrPrnAmt>
+    <n1:putCall>Put</n1:putCall>
+    <n1:investmentDiscretion>DFND</n1:investmentDiscretion>
+    <n1:otherManager>1</n1:otherManager>
+    <n1:votingAuthority>
+      <n1:Sole>3750000</n1:Sole>
+      <n1:Shared>0</n1:Shared>
+      <n1:None>0</n1:None>
+    </n1:votingAuthority>
+  </n1:infoTable>
+  <n1:infoTable>
+    <n1:nameOfIssuer>UNITED AIRLS HLDGS INC</n1:nameOfIssuer>
+    <n1:titleOfClass>COM</n1:titleOfClass>
+    <n1:cusip>910047109</n1:cusip>
+    <n1:value>4603500</n1:value>
+    <n1:shrsOrPrnAmt>
+      <n1:sshPrnamt>50000</n1:sshPrnamt>
+      <n1:sshPrnamtType>SH</n1:sshPrnamtType>
+    </n1:shrsOrPrnAmt>
+    <n1:putCall>Call</n1:putCall>
+    <n1:investmentDiscretion>DFND</n1:investmentDiscretion>
+    <n1:otherManager>1</n1:otherManager>
+    <n1:votingAuthority>
+      <n1:Sole>50000</n1:Sole>
+      <n1:Shared>0</n1:Shared>
+      <n1:None>0</n1:None>
+    </n1:votingAuthority>
+  </n1:infoTable>
+  <n1:infoTable>
+    <n1:nameOfIssuer>VIA TRANSN INC</n1:nameOfIssuer>
+    <n1:titleOfClass>COM CL A</n1:titleOfClass>
+    <n1:cusip>92556W104</n1:cusip>
+    <n1:value>3750000</n1:value>
+    <n1:shrsOrPrnAmt>
+      <n1:sshPrnamt>250000</n1:sshPrnamt>
+      <n1:sshPrnamtType>SH</n1:sshPrnamtType>
+    </n1:shrsOrPrnAmt>
+    <n1:investmentDiscretion>DFND</n1:investmentDiscretion>
+    <n1:otherManager>1</n1:otherManager>
+    <n1:votingAuthority>
+      <n1:Sole>250000</n1:Sole>
+      <n1:Shared>0</n1:Shared>
+      <n1:None>0</n1:None>
+    </n1:votingAuthority>
+  </n1:infoTable>
+  <n1:infoTable>
+    <n1:nameOfIssuer>WILLOW LANE ACQUISITION CORP</n1:nameOfIssuer>
+    <n1:titleOfClass>ORD SHS CL A</n1:titleOfClass>
+    <n1:cusip>G9675P102</n1:cusip>
+    <n1:value>10650000</n1:value>
+    <n1:shrsOrPrnAmt>
+      <n1:sshPrnamt>1000000</n1:sshPrnamt>
+      <n1:sshPrnamtType>SH</n1:sshPrnamtType>
+    </n1:shrsOrPrnAmt>
+    <n1:investmentDiscretion>DFND</n1:investmentDiscretion>
+    <n1:otherManager>1</n1:otherManager>
+    <n1:votingAuthority>
+      <n1:Sole>1000000</n1:Sole>
+      <n1:Shared>0</n1:Shared>
+      <n1:None>0</n1:None>
+    </n1:votingAuthority>
+  </n1:infoTable>
+</informationTable>
