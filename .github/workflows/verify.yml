@@ -1,0 +1,49 @@
+name: verify
+
+# Two questions, in order:
+#   1. Do the committed analytical outputs still come out of the committed raw
+#      SEC filings? Notebooks 02 and 03 read only from data/raw/edgar/ and are
+#      deterministic, so their outputs must reproduce byte-identically. This
+#      catches a parser or metric change that silently moves a published figure.
+#   2. Do the figures quoted in the written analysis still match the data? The
+#      README and the PDFs state specific numbers; the suite asserts the
+#      committed tables still say the same thing.
+#
+# Deliberately not covered: notebooks 01, 04, 06, 07 and 08 call SEC EDGAR and
+# yfinance live. Their output legitimately changes with when they run and with a
+# third-party price feed, so asserting byte-equality on them would produce a
+# check that fails for reasons unrelated to this code. Those results are dated
+# in the README instead. See scripts/verify.py for the same note.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install
+        run: pip install -r requirements.txt
+
+      - name: Committed outputs reproduce from committed filings
+        run: python scripts/verify.py
+
+      - name: Working tree is unchanged apart from notebook execution metadata
+        run: |
+          git diff --stat
+          CHANGED=$(git diff --name-only -- . ':(exclude)notebooks/*.ipynb')
+          if [ -n "$CHANGED" ]; then
+            echo "Verification altered tracked files outside notebook metadata:"
+            echo "$CHANGED"
+            exit 1
+          fi
