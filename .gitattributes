@@ -1,0 +1,17 @@
+# Language statistics
+#
+# The notebooks are the readable form of each analysis, not the source of it -
+# the logic lives in src/ and the notebooks display what it returns. Their byte
+# count is dominated by embedded PNG outputs, so counting them would report this
+# as a Jupyter Notebook project when the code that does the work is Python.
+*.ipynb linguist-documentation
+
+# Built deliverables, not hand-written source.
+outputs/** linguist-generated
+model/*.xlsx    linguist-generated
+reports/*.pdf   linguist-generated
+
+# Primary source filings as retrieved from SEC EDGAR - retained verbatim as
+# evidence, never edited. Not authored here.
+data/raw/edgar/**   linguist-vendored
+data/external/**    linguist-vendored

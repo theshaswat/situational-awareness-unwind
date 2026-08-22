@@ -187,5 +187,11 @@ leverage-and-liquidity engine that decomposes the drawdown, validates against
 a documented forced-sale outcome, and flags 1 of 12 live 13F filers breaching
 the same concentration-risk thresholds today.
 
+## Licence
+Code under `src/` and `scripts/` is MIT. The written analysis, model, and
+exhibits are not — see [NOTICE.md](NOTICE.md) for the scope split, and for
+the explicit scope limits on the live screen. Nothing here is investment
+advice.
+
 ## Author
 Shaswat Sharma · [github.com/theshaswat](https://github.com/theshaswat)
