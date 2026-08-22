@@ -22,8 +22,8 @@ geometry?
 
 | Finding | Value |
 |---|---|
-| Disclosed 13F long book, 30 Jun 2026 (last filing before collapse) | $20.24bn / 26 positions |
-| Top-2 concentration (SanDisk 28.0% + Micron 27.5%) | 55.5% of disclosed book |
+| Disclosed 13F book, 30 Jun 2026 (last filing before collapse) | $20.24bn gross / 26 entries — of which $20.17bn long across 23 positions |
+| Top-2 concentration (SanDisk 28.0% + Micron 27.5%) | 55.5% of disclosed gross |
 | Put-linked exposure, Q1 2026 → Q2 2026 | 61.9% of gross → 0.03% of gross |
 | Sign-flipped positions (PUT in Q1 → larger LONG in Q2, same issuer) | Micron, TSMC |
 | Herfindahl index, Q1 2026 → Q2 2026 | 0.070 → 0.176 |
@@ -129,9 +129,10 @@ stake), or any leverage figure directly. Filings arrive with a 45-day lag.
 Option entries disclose the value of the underlying only — no strike,
 expiry, or bought/written flag — so every use of the word "hedge" in this
 project is an inference from exposure direction, stated as such throughout.
-Roughly 96.5–97% of the disclosed Q2-2026 long book was mappable to a liquid
-US ticker for the liquidity and attribution work; the unmapped remainder is
-listed and excluded, not estimated.
+97.0% of the disclosed Q2-2026 long book by value (21 of 23 positions,
+$19.56bn of $20.17bn) was mappable to a liquid US ticker for the liquidity
+and attribution work; the unmapped remainder (Keel Infrastructure, SharonAI
+Holdings) is listed and excluded, not estimated.
 
 ## Limitations & Assumptions
 1. A put position absent at quarter-end cannot be distinguished, from public
@@ -163,11 +164,22 @@ listed and excluded, not estimated.
    in the market."
 8. The live screen identifies risk geometry, not predictions. It is not
    investment advice, and no claim in this project asserts any named filer
-   will experience distress.
-9. This event is still developing as of the last data pull (22 Aug 2026);
-   reports from 10 Aug 2026 indicate investor capital re-committing to the
-   fund. All figures here are frozen to filings and prices available as of
-   the stated pull date.
+   will experience distress. Note also that the single filer flagged here
+   breached the concentration LEVEL and TREND axes, not the multi-name
+   crowding axis — it holds 1 of the 4 tracked names, not 2+. Two of three
+   axes is the stated flag threshold; "flagged" does not mean "matched the
+   Situational Awareness book on every dimension."
+9. Notebook 08 queries SEC EDGAR full-text search live. Re-running it after
+   new 13F filings land will surface a different candidate set and may
+   produce different flags — that is inherent to a live screen, not a
+   defect. The committed result is dated (see
+   reports/LIVE_SCREEN_RECOMMENDATION.md) and the underlying filings are
+   committed under data/external/crowding_universe/ so the published result
+   remains reproducible as filed.
+10. This event is still developing as of the last data pull (22 Aug 2026);
+    reports from 10 Aug 2026 indicate investor capital re-committing to the
+    fund. All figures here are frozen to filings and prices available as of
+    the stated pull date.
 
 ## Resume / LinkedIn Line
 Reconstructed a $45bn hedge fund's collapse from SEC 13F/13D filings; built a
