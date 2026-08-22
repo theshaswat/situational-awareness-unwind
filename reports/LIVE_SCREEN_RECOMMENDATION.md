@@ -1,5 +1,9 @@
 # Live Screen Recommendation — generated 2026-08-22
 
-1 current 13F filer(s) — SYMMETRY PEAK MANAGEMENT LLC  (CIK 0001389234) — share at least 2 of the 3 axes that preceded the Situational Awareness unwind: elevated or fast-rising concentration in illiquid AI-infrastructure names, or multi-name overlap in the specific low-ADV names flagged by notebook 04. This is risk geometry, not a prediction of failure — a portfolio matching this signature merits closer position-level liquidity and leverage review, not an assumption of imminent distress.
+1 of 12 screened 13F filers breach the 2-of-3-axis threshold established in notebook 07.
 
-Caveat: Gullane Capital, LLC  (CIK 0002068251) show(s) extreme single-name concentration (HHI > 0.5) but is not flagged here because it holds only 1 of the 4 tracked names — this screen targets multi-name crowding in the same illiquid AI-infrastructure trade, not single-stock concentration generally, which is a real but different risk category outside this project's scope.
+SYMMETRY PEAK MANAGEMENT LLC  (CIK 0001389234) — breaches 2 of 3 axes: concentration level (HHI > 0.10); concentration trend (> +0.03 in one quarter). It does NOT breach: multi-name crowding (holds >= 2 of 4 tracked names) (HHI 0.103 -> 0.237; holds 1 of the 4 tracked names)
+
+This is risk geometry, not a prediction of failure. Breaching 2 of 3 axes does NOT mean a filer matches the Situational Awareness book on every dimension — read the per-axis detail above. A portfolio matching this signature merits closer position-level liquidity and leverage review, not an assumption of imminent distress.
+
+Caveat — high concentration alone is not a flag: Gullane Capital, LLC  (CIK 0002068251) (HHI 0.875) breaches only 1 of 3 axes — its concentration is extreme but essentially unchanged quarter-over-quarter (trend -0.003), so it fails the trend axis. Note that the flagged filer(s) above also hold only 1 of the 4 tracked names, so multi-name crowding is not what separates them; the separator is concentration TREND. Static single-name concentration is a real risk, but a structurally different one this screen was not designed to catch — see notebook 07 for why a single static concentration threshold was rejected.

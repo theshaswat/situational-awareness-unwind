@@ -50,7 +50,7 @@ geometry?
 **July's actual priced loss, decomposed into beta, concentration, and residual — the reported −67% equity loss is deliberately not force-reconciled to this:**
 ![Attribution bridge — long-book return decomposition](outputs/charts/attribution_bridge.png)
 
-**The live decision: which current 13F filers share the pre-collapse signature:**
+**The live decision: which current 13F filers breach 2+ of the 3 risk axes (per-axis detail matters — see Limitations #8):**
 ![Crowded-trade screen heatmap](outputs/charts/screen_heatmap.png)
 
 ## Methodology
@@ -183,9 +183,9 @@ Holdings) is listed and excluded, not estimated.
 
 ## Resume / LinkedIn Line
 Reconstructed a $45bn hedge fund's collapse from SEC 13F/13D filings; built a
-leverage-and-liquidity engine that reproduces the drawdown, validates against
-a documented forced-sale outcome, and flags 1 of 12 live 13F filers carrying
-the same crowded-trade signature today.
+leverage-and-liquidity engine that decomposes the drawdown, validates against
+a documented forced-sale outcome, and flags 1 of 12 live 13F filers breaching
+the same concentration-risk thresholds today.
 
 ## Author
 Shaswat Sharma · [github.com/theshaswat](https://github.com/theshaswat)
