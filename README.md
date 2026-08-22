@@ -181,12 +181,6 @@ Holdings) is listed and excluded, not estimated.
     fund. All figures here are frozen to filings and prices available as of
     the stated pull date.
 
-## Resume / LinkedIn Line
-Reconstructed a $45bn hedge fund's collapse from SEC 13F/13D filings; built a
-leverage-and-liquidity engine that decomposes the drawdown, validates against
-a documented forced-sale outcome, and flags 1 of 12 live 13F filers breaching
-the same concentration-risk thresholds today.
-
 ## Licence
 Code under `src/` and `scripts/` is MIT. The written analysis, model, and
 exhibits are not — see [NOTICE.md](NOTICE.md) for the scope split, and for
