@@ -14,6 +14,13 @@ reasons unrelated to the code. Those are dated in the README instead.
 
 What this catches: a change to the parser, the concentration metrics, or the
 panel construction that silently alters a published figure.
+
+Note on "identical": CSV outputs are compared byte-for-byte. Parquet and PNG
+are compared by content (pandas .equals) rather than by bytes, because both
+carry platform-dependent encoding — parquet writer metadata, and matplotlib's
+font rasterisation — that differs between a macOS workstation and a Linux CI
+runner while the underlying data is unchanged. Asserting byte-equality on
+those would fail for reasons that have nothing to do with this code.
 """
 import subprocess
 import sys

@@ -38,12 +38,20 @@ jobs:
       - name: Committed outputs reproduce from committed filings
         run: python scripts/verify.py
 
-      - name: Working tree is unchanged apart from notebook execution metadata
+      # Text outputs must be byte-identical. Binary ones deliberately are not
+      # checked that way: .parquet carries writer metadata and .png depends on
+      # the platform's font rasterisation, so both differ between a macOS
+      # workstation and a Linux runner while holding identical data. The step
+      # above already compares those semantically (pandas .equals), which is
+      # the claim that actually means something.
+      - name: Committed CSV outputs are byte-identical
         run: |
           git diff --stat
-          CHANGED=$(git diff --name-only -- . ':(exclude)notebooks/*.ipynb')
+          CHANGED=$(git diff --name-only -- '*.csv')
           if [ -n "$CHANGED" ]; then
-            echo "Verification altered tracked files outside notebook metadata:"
+            echo "Re-running the pipeline changed committed CSV outputs:"
             echo "$CHANGED"
+            git diff -- '*.csv' | head -50
             exit 1
           fi
+          echo "All committed CSV outputs reproduce byte-identically."
