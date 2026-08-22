@@ -142,7 +142,7 @@ def build_executive_summary():
         "Source: SEC EDGAR (13F-HR, 13D/A, Form D/A), CIK 0002045724 / 0002038540. Prices: "
         "yfinance, snapshot 22 Aug 2026. Full methodology, limitations, and reconciliation of "
         "conflicting press figures: see README.md and reports/RECONCILIATION.md. Prepared by "
-        "Shaswat Sharma.",
+        "Shaswat Sharma -- github.com/theshaswat.",
         styles["Small"]))
 
     doc.build(story)
@@ -151,7 +151,7 @@ def build_executive_summary():
 
 def build_risk_memo():
     doc = SimpleDocTemplate(str(cfg.REPORTS / "RISK_MEMO.pdf"), pagesize=LETTER,
-                             topMargin=0.6 * inch, bottomMargin=0.6 * inch,
+                             topMargin=0.5 * inch, bottomMargin=0.5 * inch,
                              leftMargin=0.7 * inch, rightMargin=0.7 * inch)
     story = []
     story.append(Paragraph("Risk Memo: Crowded-Trade Signature Screen", styles["H1"]))
@@ -229,7 +229,7 @@ def build_risk_memo():
     story.append(Spacer(1, 14))
     story.append(Paragraph(
         "Full methodology, all 8 executed notebooks, and every source citation: "
-        "see README.md. Prepared by Shaswat Sharma, 22 Aug 2026.",
+        "see README.md. Prepared by Shaswat Sharma -- github.com/theshaswat, 22 Aug 2026.",
         styles["Small"]))
 
     doc.build(story)
